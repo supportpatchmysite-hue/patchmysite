@@ -3,7 +3,7 @@ import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 
 export const metadata = {
-  title: 'SiteDesk — Digital Web Support, No Phone Calls',
+  title: 'PatchMySite — Digital Web Support, No Phone Calls',
   description: 'Fixed-price WordPress, Drupal & web support. Submit your issue, pay your tier, we fix it — all async, all digital, no calls.',
 }
 
