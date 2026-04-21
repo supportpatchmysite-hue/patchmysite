@@ -14,9 +14,9 @@ const steps = [
 ]
 
 const testimonials = [
-  { quote: 'SiteDesk fixed a broken WooCommerce checkout in less than a day. I submitted before bed and it was resolved by morning.', author: 'E-commerce store owner' },
+  { quote: 'PatchMySite fixed a broken WooCommerce checkout in less than a day. I submitted before bed and it was resolved by morning.', author: 'E-commerce store owner' },
   { quote: 'No phone, no Zoom, no waiting on hold. I described the problem in a form and got a ticket update within hours. Just results.', author: 'Freelance designer' },
-  { quote: 'I was losing sales every hour my site was down. SiteDesk had it back up same day. Worth every penny.', author: 'Small business owner' },
+  { quote: 'I was losing sales every hour my site was down. PatchMySite had it back up same day. Worth every penny.', author: 'Small business owner' },
 ]
 
 export default function HomePage() {
@@ -34,7 +34,7 @@ export default function HomePage() {
             <span className="text-blue-200">We Fix It — No Phone Calls.</span>
           </h1>
           <p className="text-lg sm:text-xl text-blue-100 max-w-2xl mx-auto mb-10 leading-relaxed">
-            SiteDesk is a digital-only support service for WordPress, Drupal, and web tech problems. Submit your issue, pay your tier, and we get to work. All communication happens in your ticket — secure, documented, and async.
+            PatchMySite is a digital-only support service for WordPress, Drupal, and web tech problems. Submit your issue, pay your tier, and we get to work. All communication happens in your ticket — secure, documented, and async.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/submit" className="bg-white text-blue-700 font-bold px-8 py-4 rounded-xl text-base hover:bg-blue-50 transition-colors shadow-lg">
