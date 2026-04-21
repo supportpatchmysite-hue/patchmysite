@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'How It Works — SiteDesk',
+  title: 'How It Works — PatchMySite',
   description: 'From broken to fixed in 8 steps — no phone calls, no meetings, everything async.',
 }
 
@@ -98,7 +98,7 @@ export default function HowItWorksPage() {
       <section className="py-20 px-4">
         <div className="max-w-3xl mx-auto">
           <div className="space-y-4">
-            {steps.map((step, i) => (
+            {steps.map((step) => (
               <div key={step.num} className={`flex gap-5 p-6 rounded-2xl border ${step.highlight ? 'bg-amber-50 border-amber-200' : 'bg-white border-slate-100 shadow-sm'}`}>
                 <div className="flex-shrink-0">
                   <div className="w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-sm flex items-center justify-center">
