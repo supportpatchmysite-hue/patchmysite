@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <div className="text-white font-bold text-lg mb-2">SiteDesk</div>
+            <div className="text-white font-bold text-lg mb-2">PatchMySite</div>
             <p className="text-sm leading-relaxed">Digital-only web support. No calls. No meetings. Just results in your ticket.</p>
           </div>
           <div>
@@ -27,7 +27,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-slate-800 mt-10 pt-6 text-xs text-center">
-          © {new Date().getFullYear()} SiteDesk. All communication is digital and ticket-based.
+          © {new Date().getFullYear()} PatchMySite. All communication is digital and ticket-based.
         </div>
       </div>
     </footer>
