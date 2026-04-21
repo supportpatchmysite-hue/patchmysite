@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 export const metadata = {
-  title: 'Pricing — SiteDesk',
+  title: 'Pricing — PatchMySite',
   description: 'Fixed-price web support tiers. No custom quotes. Pay before work begins.',
 }
 
