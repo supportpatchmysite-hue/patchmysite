@@ -4,17 +4,17 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 // Map tier selections to live Stripe price IDs
 const PRICE_MAP = {
-  'Quick Fix — $79':              'price_1TOn9lGVFh4nVbol6nduFH03',
-  'Standard — $149':              'price_1TOn9oGVFh4nVbolbC9hM3kj',
-  'Advanced — $299':              'price_1TOn9rGVFh4nVboljPPAA2lP',
-  'Hourly Block 2hr — $99':       'price_1TOn9xGVFh4nVbol11HgEBZs',
-  'Hourly Block 5hr — $220':      'price_1TOnA0GVFh4nVbolKeNnmAZq',
-  'Hourly Block 10hr — $399':     'price_1TOnA3GVFh4nVbolN85wi9Bz',
-  'Retainer Starter — $249/mo':   'price_1TOnA6GVFh4nVbolu6kSjuYU',
-  'Retainer Pro — $499/mo':       'price_1TOnA9GVFh4nVbolCpAGxwKe',
+  'Quick Fix — $79':              'price_1TOo6wGSEOR9lH6yAN8lMjnK',
+  'Standard — $149':              'price_1TOo6wGSEOR9lH6ydqtIBWzg',
+  'Advanced — $299':              'price_1TOo6yGSEOR9lH6yywWifGQW',
+  'Hourly Block 2hr — $99':       'price_1TOo6wGSEOR9lH6yborAfvYB',
+  'Hourly Block 5hr — $220':      'price_1TOo6wGSEOR9lH6yxz6vdE7W',
+  'Hourly Block 10hr — $399':     'price_1TOo6wGSEOR9lH6y1kjzWbw0',
+  'Retainer Starter — $249/mo':   'price_1TOo6wGSEOR9lH6ywlAzVAaw',
+  'Retainer Pro — $499/mo':       'price_1TOo6wGSEOR9lH6yZIw8vmIA',
 }
 
-const EMERGENCY_PRICE_ID = 'price_1TOn9uGVFh4nVbolHa3zXYEE'
+const EMERGENCY_PRICE_ID = 'price_1TOo6wGSEOR9lH6yn30RLUK6'
 
 export async function POST(request) {
   try {
